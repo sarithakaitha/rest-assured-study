@@ -19,8 +19,8 @@ public class FruitTest {
                 .get("https://staging.tiered-planet.net/mild-temper/fruits")
                 .then()
                 .assertThat()
-                .body("[0].description", equalTo("Winter fruit"))
-                .body("[1].description",equalTo("Tropical fruit"));
+                .body("[0].description", equalTo("Winter fruit"));
+
 
     }
 }
